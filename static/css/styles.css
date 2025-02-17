@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../images/fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent; /* Hace que el fondo del encabezado sea transparente */
+    color: white; /* Color del texto en el encabezado */
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    color: #ffffff; /* Color del texto de los títulos */
+}
+
+p {
+    color: #666; /* Color del texto de los párrafos */
+    padding: 0 1em;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: transparent; /* Hace que el fondo del contenedor sea transparente */
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+nav {
+    background-color: transparent; /* Hace que el fondo del menú sea transparente */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white; /* Puedes ajustar el color del texto del menú si lo deseas */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: transparent; /* Hace que el fondo de los enlaces sea transparente */
+}
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente al pasar el cursor */
+}
